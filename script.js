@@ -1,7 +1,7 @@
 function comorbidade(){
     var idade = Number(document.getElementById("idade").value)
     var comorbidade = Text(document.getElementById("comorbidade"))
-    if (idade >= 50 || comorbidade == "S"){
+    if (idade >= 60 || comorbidade == "S"){
         document.getElementById("resposta").innerHTML = "Pode se vacinar!"
     }
     else {
