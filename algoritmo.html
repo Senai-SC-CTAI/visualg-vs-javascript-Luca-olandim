@@ -5,10 +5,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Algoritmo 49</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body class="body2">
     <div style=" text-align: center";>
     <h1>Algoritmo em Java Script</h1>
+    </div>
+    <div class="code-box">
+        <pre><code>
+            function comorbidade(){
+                var idade = Number(document.getElementById("idade").value)
+                var comorbidade = (document.getElementById("comorbidade").value)
+                if (idade >= 60 || comorbidade == "S"){
+                    document.getElementById("resposta").innerText = "Pode se vacinar!"
+                }
+                else {
+                    document.getElementById("resposta").innerText = "Não pode se vacinar!"
+                }
+            }
+        </code></pre>
+        <button class="copy-button">Copiar</button>
+      </div>
+    <div class="JavaScript" style= "text-align: center;";>
     <p>Digite seu nome:</p>
     <input id="nome" type="text"><br><br>
     <p>Digite sua idade:</p>
@@ -18,5 +36,6 @@
     <button onclick="comorbidade()">Verificar situação</button><br>
     <p id= "resposta"></p>
     </div>
+    
 </body>
 </html>
