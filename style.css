@@ -1,13 +1,87 @@
 .JavaScript{
-    position: absolute;right: 5%;
+   position: absolute;right: 5%;
 top: 8%;
- }
- .body1{
-    background-color: black;
- }
- #title{
-    color: white;
- }
- #subtitle{
-    color: white;
- }
+}
+.body1{
+   background-color: #8FB9AA;
+}
+.body2{
+   background-color: #8FB9AA;
+}
+.body3{
+   background-color: #8FB9AA;
+}
+#title{
+   color: white;
+   font-size: 45px;
+}
+#subtitle{
+   color: white;
+   font-size: 18px;
+}
+.code-box {
+   width: 50%;
+   margin: 20px auto;
+   border: 1px  #ccc;
+   border-radius: 15px;
+   padding: 10px;
+   position: absolute;left: 2%;
+   background-color: whitesmoke
+}
+.code-box2 {
+   width: 50%;
+   margin: 20px auto;
+   border: 1px #ccc;
+   border-radius: 15px;
+   padding: 10px;
+   position: absolute;left: 25%;
+   background-color: whitesmoke
+   
+
+   
+}
+.custom-button1 {
+   width: 150px;
+   height: 50px; 
+   padding: 5px; 
+   font-size: 16px; 
+   background-color: #304D63; 
+   color: white; 
+   border: none; 
+   border-radius: 5px; 
+}
+.custom-button1:hover {
+   background-color:#1f3241; 
+}
+.custom-button2 {
+   width: 150px;
+   height: 50px; 
+   padding: 5px;
+   font-size: 16px; 
+   background-color: #304D63; 
+   color: white; 
+   border: none; 
+   border-radius: 5px; 
+}
+.custom-button2:hover {
+   background-color: #1f3241;
+}
+.custom-button3 {
+   width: 150px;
+   height: 50px; 
+   padding: 5px;
+   font-size: 16px; 
+   background-color: #304D63; 
+   color: white; 
+   border: none; 
+   border-radius: 5px; 
+}
+.custom-button3:hover {
+   background-color: #1f3241;
+}
+#img1{
+   position: absolute;left: 15%;
+   width: 75%;
+   height: 75%;
+   top: 85%
+}
