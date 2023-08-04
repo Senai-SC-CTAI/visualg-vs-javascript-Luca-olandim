@@ -1,31 +1,39 @@
 <!DOCTYPE html>
 <html lang="br">
 <head>
+    <script src="script.js"></script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Algoritmo 49</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body class="body3">
     <div style=" text-align: center";>
     <h1>Algoritmo em VisualG</h1>
     </div>
-    <p>Algoritmo "Algoritmo 49"<br>
-        Var<br>
-        nome, comorbidade: caractere<br>
-        idade: inteiro<br><br>
+    <div class="code-box2">
+        <pre><code id="code-snippet2">
+        Algoritmo "Algoritmo 49"
+        Var
+        nome, comorbidade: caractere
+        idade: inteiro
         
-        Inicio<br>
-        escreva("Digite o seu nome completo: ")<br>
-        leia(nome)<br>
-        escreva("Digite a sua idade: ")<br>
-        leia(idade)<br>
-        escreva("Você possui alguma comorbidade? Se sim, digite S. Caso contrário, digite N: ")<br>
-        leia(comorbidade)<br>
-        se idade >= 60 ou comorbidade = "S" entao<br>
-        escreva("Pode se vacinar!")<br>
-        senao<br>
-        escreva("Não pode se vacinar!")<br>
-        fimse<br>
-        Fimalgoritmo</p>
+        Inicio
+        escreva("Digite o seu nome completo: ")
+        leia(nome)
+        escreva("Digite a sua idade: ")
+        leia(idade)
+        escreva("Você possui alguma comorbidade? Se sim, digite S. Caso contrário, digite N: ")
+        leia(comorbidade)
+        se idade >= 60 ou comorbidade = "S" entao
+        escreva("Pode se vacinar!")
+        senao
+        escreva("Não pode se vacinar!")
+        fimse
+        Fimalgoritmo
+        </code></pre>
+        <button onclick="copyToClipboard2()">Copiar</button>
+      </div>
+      <img id= img1 src="Captura de Tela (8).png">
 </body>
 </html>
