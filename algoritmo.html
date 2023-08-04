@@ -12,7 +12,7 @@
     <h1>Algoritmo em Java Script</h1>
     </div>
     <div class="code-box">
-        <pre><code>
+        <pre><code id="code-snippet">
             function comorbidade(){
                 var idade = Number(document.getElementById("idade").value)
                 var comorbidade = (document.getElementById("comorbidade").value)
@@ -24,7 +24,7 @@
                 }
             }
         </code></pre>
-        <button class="copy-button">Copiar</button>
+        <button onclick="copyToClipboard()">Copiar</button>
       </div>
     <div class="JavaScript" style= "text-align: center;";>
     <p>Digite seu nome:</p>
@@ -33,9 +33,8 @@
     <input id="idade" type="number"><br><br>
     <p>Você possui alguma comorbidade? Se sim, digite S. Caso contrário, digite N:</p>
     <input id="comorbidade" type="text"><br><br>
-    <button onclick="comorbidade()">Verificar situação</button><br>
+    <button class="custom-button3" onclick="comorbidade()">Verificar situação</button><br>
     <p id= "resposta"></p>
     </div>
-    
 </body>
 </html>
